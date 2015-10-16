@@ -16,7 +16,7 @@ function handleError(msg){
    window.close();
 }
 
-
+//Inicializa curso
 function initCourse(){
    lmsConnected = scorm.init();
    if(lmsConnected){
@@ -44,7 +44,7 @@ function setComplete(){
 </head>
 
 <body onload="initCourse();">
-Conteúdo da página 1
+<p>Conteúdo da página 1</p>
 
 <p>Clique para marcar esta página como visualizada:</p>
 <button onclick="setComplete();">Marcar</button>
